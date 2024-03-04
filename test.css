@@ -7,7 +7,17 @@ html
 {
     background-color:  #FDCED6;
     background-image: url(./img/15.jpg);
+    font-size: 16px;
 }
+body {
+    font-size: 1rem; /* Sử dụng font-size dựa trên phần tử gốc */
+}
+
+/* Sử dụng vw (viewport width) */
+p {
+    font-size: 3vw; /* Font-size sẽ chiếm 3% của chiều rộng viewport */
+}
+    
 .div1
 {
     width: 100%;
